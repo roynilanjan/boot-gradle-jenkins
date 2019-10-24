@@ -4,7 +4,7 @@ applications:
     host: boot-gradle-jenkins
     memory: 1G
     instances: 1
-    path: ./target/boot-gradle-jenkins.jar
+    path: ./build/libs/boot-gradle-jenkins.jar
     buildpack: java_buildpack
     timeout: 180 # to give time for the data to import
     env:
